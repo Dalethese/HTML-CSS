@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@700&family=Sriracha&display=swap');
+:root{
+    --title-font: 'Passion One';
+    --verse-font: 'Sriracha';
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header */
+header{
+    background-color: black;
+    width: 100%;
+    height: 35vh;
+}
+header h1{
+    font-family: var(--title-font);
+    font-size: 12em;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+}
+header p{
+    font-family: 'Verdana';
+    color: white;
+    text-align: center;
+}
+header a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+header a:hover{
+    text-decoration: underline;
+}
+
+/* main */
+
+.content{
+    padding: 50px 20px;
+    font-family: var(--verse-font);
+    font-size: 1.5em;
+    line-height: 3em;
+}
+.second-verse{
+    background: black url('../assets/background001.jpg') no-repeat fixed;
+    background-size: cover;
+    color: white;
+}
+.second-verse h2{
+    background-color: rgba(0, 0, 0, 0.377);
+    padding: 10px;
+    width: fit-content;
+}
+
+.four-verse{
+    background: black url('../assets/background002.jpg') no-repeat fixed;
+    background-size: cover;
+    color: white;
+}
+.four-verse h2{
+    background-color: rgba(0, 0, 0, 0.377);
+    padding: 10px;
+    width: fit-content;
+}
+
+footer{
+    width: 100%;
+    height: 30px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+footer a{
+    color: white;
+    font-weight: bold;
+}
