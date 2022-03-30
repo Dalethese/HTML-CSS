@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@700&family=Sriracha&display=swap');
 :root{
     --title-font: 'Passion One';
@@ -17,14 +18,16 @@ header{
 header h1{
     font-family: var(--title-font);
     font-size: 14vh;
+    font-variant: small-caps;
     color: white;
     text-align: center;
-    padding-top: 30px;
+    padding-top: 50px;
 }
 header p{
     font-family: 'Verdana';
     color: white;
     text-align: center;
+    padding-bottom: 50px;
 }
 header a{
     text-decoration: none;
@@ -38,17 +41,17 @@ header a:hover{
 /* main */
 
 .content{
-    padding: 50px 20px;
+    padding: 10vh 30px;
     font-family: var(--verse-font);
     font-size: 1.5em;
-    line-height: 3em;
+    line-height: 2em;
 }
 .second-verse{
     background: black url('../assets/background001.jpg') no-repeat fixed;
     background-size: cover;
     color: white;
 }
-.second-verse h2{
+.second-verse p{
     background-color: rgba(0, 0, 0, 0.377);
     padding: 10px;
     width: fit-content;
@@ -59,7 +62,7 @@ header a:hover{
     background-size: cover;
     color: white;
 }
-.four-verse h2{
+.four-verse p{
     background-color: rgba(0, 0, 0, 0.377);
     padding: 10px;
     width: fit-content;
@@ -73,7 +76,7 @@ footer{
     text-align: center;
 }
 footer p{
-    font-size: 2vh;
+    font-size: 1em;
 }
 footer a{
     color: white;
